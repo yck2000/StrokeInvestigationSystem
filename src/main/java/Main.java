@@ -91,10 +91,9 @@ public class Main {
         pat1BPInfo.setLayout(new GridLayout(2,1));
         pat2BPInfo.setLayout(new GridLayout(2,1));
         pat1BPInfo.add(new JLabel("Blood pressure"));
-        pat1BPInfo.add(new JLabel(patient1.getBPExam().getSystolic() + " over " + patient1.getBPExam().getDiastolic()));
+        pat1BPInfo.add(new JLabel(patient1.displayBP()));
         pat2BPInfo.add(new JLabel("Blood pressure"));
-        pat2BPInfo.add(new JLabel(patient2.getBPExam().getSystolic() + " over " + patient2.getBPExam().getDiastolic()));
-
+        pat2BPInfo.add(new JLabel(patient2.displayBP()));
 
 
         doctorPanel.add(pat1Icon);

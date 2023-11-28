@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b66ffed-e1a8-4e86-bd20-2c0eaaf99c6e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4b66ffed-e1a8-4e86-bd20-2c0eaaf99c6e" name="Changes" comment="11:06 am">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Examination/BP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examination/BP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Examination/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examination/Exam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Examination/MRI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Examination/MRI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Patient.java" afterDir="false" />
     </list>
@@ -132,10 +128,25 @@
       <option name="presentableId" value="Default" />
       <updated>1701162989248</updated>
       <workItem from="1701162990583" duration="6497000" />
+      <workItem from="1701169594831" duration="78000" />
+      <workItem from="1701169701454" duration="148000" />
     </task>
+    <task id="LOCAL-00001" summary="11:06 am">
+      <option name="closed" value="true" />
+      <created>1701169617833</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701169617833</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="11:06 am" />
+    <option name="LAST_COMMIT_MESSAGE" value="11:06 am" />
   </component>
 </project>

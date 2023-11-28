@@ -29,6 +29,10 @@ public class Patient {
         exams = new ArrayList<Exam>();
     }
 
+    public String displayBP() {
+        return BPExam.getSystolic() + " over " + BPExam.getDiastolic();
+    }
+
     public String getExamDetails() {
         return  "Patient: " + name + ": " + "MRI: " + MRIExam.getFieldStrength() +
                 ", " + MRIExam.getDate().toString() + ": BP: " + BPExam.getDuration() +
