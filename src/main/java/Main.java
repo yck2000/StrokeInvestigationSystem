@@ -45,46 +45,15 @@ public class Main {
         pat2Info.setLayout(new GridLayout(2,1));
         pat2Info.add(new JLabel("Name: "+patient2.getName()));
         pat2Info.add(new JLabel("Age: "+patient2.getAge()));
-
-        URL pat1ImageURL = null;
-        try {
-            pat1ImageURL = new URL(patient1.getURL());
-        }
-        catch (MalformedURLException e) {
-            System.out.println(e.getMessage());
-        }
-        pat1Icon.setIcon(new ImageIcon(pat1ImageURL));
-
-        URL pat2ImageURL = null;
-        try {
-            pat2ImageURL = new URL(patient2.getURL());
-        }
-        catch (MalformedURLException e) {
-            System.out.println(e.getMessage());
-        }
-        pat2Icon.setIcon(new ImageIcon(pat2ImageURL));
+        pat1Icon.setIcon(patient1.getIcon());
+        pat2Icon.setIcon(patient2.getIcon());
 
 
 
         JLabel pat1MRIImage = new JLabel();
         JLabel pat2MRIImage = new JLabel();
-        URL pat1MRIURL = null;
-        try {
-            pat1MRIURL = new URL(patient1.getMRIExam().getURL());
-        }
-        catch (MalformedURLException e) {
-            System.out.println(e.getMessage());
-        }
-        pat1MRIImage.setIcon(new ImageIcon(pat1MRIURL));
-
-        URL pat2MRIURL = null;
-        try {
-            pat2MRIURL = new URL(patient2.getMRIExam().getURL());
-        }
-        catch (MalformedURLException e) {
-            System.out.println(e.getMessage());
-        }
-        pat2MRIImage.setIcon(new ImageIcon(pat2MRIURL));
+        pat1MRIImage.setIcon(patient1.getMRIImage());
+        pat2MRIImage.setIcon(patient2.getMRIImage());
 
         JPanel pat1BPInfo = new JPanel();
         JPanel pat2BPInfo = new JPanel();

@@ -1,5 +1,8 @@
 import Examination.*;
 
+import javax.swing.*;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 
 public class Patient {
@@ -70,8 +73,23 @@ public class Patient {
         this.URLlink = URLlink;
     }
 
-    public String getURL() {
-        return URLlink;
+    public ImageIcon getMRIImage() {
+        URL MRIURL = null;
+        try {
+            MRIURL = new URL(MRIExam.getURL());
+        } catch (MalformedURLException e) {
+            System.out.println(e.getMessage());
+        }
+        return new ImageIcon(MRIURL);
+    }
+    public ImageIcon getIcon() {
+        URL link = null;
+        try {
+            link = new URL(URLlink);
+        } catch (MalformedURLException e) {
+            System.out.println(e.getMessage());
+        }
+        return new ImageIcon(link);
     }
 
     //Below are access for future design parameters:
