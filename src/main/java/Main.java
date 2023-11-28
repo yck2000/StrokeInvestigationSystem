@@ -73,7 +73,6 @@ public class Main {
         doctorPanel.add(pat2Info);
         doctorPanel.add(pat2MRIImage);
         doctorPanel.add(pat2BPInfo);
-
         doctorPanel.setBorder(BorderFactory.createLineBorder(Color.black));
 
 
